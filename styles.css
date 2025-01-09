@@ -1,1 +1,27 @@
 /* your code */
+body {
+  font-family: sans-serif; /* Use a sans-serif font for a modern look */
+}
+
+table {
+  border-collapse: collapse; /* Remove spacing between table cells */
+  width: 100%; /* Make the table responsive */
+  margin-bottom: 20px; /* Add some spacing below the table */
+}
+
+th {
+  background-color: #2980b9; /* Set header background color */
+  color: white; /* Set header text color */
+  text-align: left;
+  padding: 12px; /* Add padding for better readability */
+}
+
+td {
+  border: 1px solid #ddd; /* Add thin borders to cells */
+  padding: 10px;
+  text-align: center; /* Center-align data within cells */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row colors for better readability */
+}
